@@ -502,7 +502,7 @@ Testimonials -------------------*/
     -o-transition: all 0.3s ease;
 }
 .ftr-links li a:hover{
-	color: #FF5903;
+	color: var(--primary-color);
 }
 .ftr-links li a:after{
 	content: "\f0da";
@@ -522,7 +522,7 @@ Testimonials -------------------*/
     -o-transition: all 0.3s ease;
 }
 .ftr-links li a:hover:after{
-	color: #FF5903;
+	color: var(--primary-color);
 }
 .footer-list address p{
 	position: relative;
