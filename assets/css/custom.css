@@ -129,7 +129,7 @@ Buttons ------------------------------*/
     transition: all 0.3s ease;
 }
 .btns:hover{
-    color: var(--secondary-color);
+    color: var(--txt-color-primary);
     background-color: var(--primary-color);
     border:solid 1px var(--primary-color);
 }

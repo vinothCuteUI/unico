@@ -14,7 +14,7 @@ Header ------------------*/
 }
 .logo img{
 	display: block;
-	width: 120px;
+	width: 140px;
 	height: auto;
 }
 
@@ -31,24 +31,25 @@ Header ------------------*/
 .top-social .social-links{
     display: inline-block;
     color: var(--txt-color-secondary);
-    width: 34px;
-    height: 34px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
-    border: solid 1px var(--txt-color-secondary);
+/*    border: solid 1px var(--txt-color-secondary);*/
     text-align: center;
-    line-height: 34px;
+    line-height: 24px;
     margin-left: 5px;
     background-color: #fff;
     transition: all 0.3s ease;
 }
 .social-links:hover{
-	background-color: var(--secondary-color);
-	color: #fff;
+/*	background-color: var(--secondary-color);*/
+	color: var(--primary-color);
 }
 
 /* ---- Navigation -----*/
 .navbar{
-	border-top: 1px solid #eee;
+/*	border-top: 1px solid #eee;*/
+padding: 15px 0 0;
 }
 .navlist{
 	display: flex;
@@ -60,7 +61,7 @@ Header ------------------*/
 	display: block;
 	color: var(--txt-color-primary);
 	font-size: 14px;
-	padding: 8px 15px;
+	padding: 15px 20px;
 	font-weight: 500;
 	position: relative;
 	transition: all 0.5s ease;
