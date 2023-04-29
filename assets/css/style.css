@@ -581,7 +581,7 @@ Testimonials -------------------*/
     border-radius: 0;
     background: var(--primary-color);
     border: none;
-    color: var(--secondary-color);
+    color: var(--txt-color-primary);
     font-size: 18px;
 }	
 .ftr-subscribe .subs-btn:focus{
