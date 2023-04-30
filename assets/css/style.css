@@ -238,6 +238,11 @@ Card item 2----------------------------*/
 	margin-bottom: 30px;    
 	height: auto;
 }
+.card-img2{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 .card-ht1{
 	height: 470px;
 }

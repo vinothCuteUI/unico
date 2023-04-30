@@ -1,4 +1,4 @@
-@media (max-width:768px){
+@media (max-width:767px){
 	.banner-txt{
 		width: 100%;
 	}
@@ -29,5 +29,44 @@
 	}
 	.logo img{
 		width: 100px;
+	}
+}
+
+@media(min-width:767px) and (max-width:992px){
+	.banner-img{
+		height: 400px;
+	}
+	.banner-txt{
+		width: 100%;
+	}
+	.card-item .card-txt{
+		padding: 25px 20px;
+	}
+	.card-item .card-txt h3{
+		font-size: 20px;
+	}
+	.list-achiev{
+		margin-bottom: 30px;
+	}
+	.card-ht1{
+		height: 350px;
+	}
+	.card-ht2{
+		height: 210px;
+	}
+	.pt-md-0{
+		padding-top: 0px !important;
+	}
+	.pr-md-0{
+		padding-right: 0px !important;
+	}
+	.pb-md-0{
+		padding-bottom: 0px !important;
+	}
+	.pl-md-0{
+		padding-left: 0px !important;
+	}
+	.testimonial-slide{
+		width: 100%;
 	}
 }
