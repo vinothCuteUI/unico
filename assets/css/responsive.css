@@ -1,0 +1,33 @@
+@media (max-width:768px){
+	.banner-txt{
+		width: 100%;
+	}
+	.banner-txt h1{
+		font-size: 38px;
+		line-height: 42px;
+	}
+	.list-achiev {
+	    margin-bottom: 30px;
+	}
+	.card-ht1, .card-ht2{
+		height: auto;
+	}
+	.pt-xs-0{
+		padding-top: 0px !important;
+	}
+	.pr-xs-0{
+		padding-right: 0px !important;
+	}
+	.pb-xs-0{
+		padding-bottom: 0px !important;
+	}
+	.pl-xs-0{
+		padding-left: 0px !important;
+	}
+	.testimonial-slide{
+		width: 100%;
+	}
+	.logo img{
+		width: 100px;
+	}
+}
