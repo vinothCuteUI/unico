@@ -1,3 +1,4 @@
+
 @media (max-width:767px){
 	.banner-txt{
 		width: 100%;
@@ -30,8 +31,168 @@
 	.logo img{
 		width: 100px;
 	}
-}
+	.menu_top{
+		position: fixed;
+	    top: 0px;
+	    right: 0px;
+	    width: 0%;
+	    height: 54vh;
+	    background: rgba(0, 0, 0, 0.82);
+	    z-index: 999;
+	    transition: all 0.5s ease;
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -ms-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    
+	}
+	.menu_top.active_menu_top{
+		width: 50%;
+	}
+	.menu_top .nav_menu{
+		width: 100%;
+		overflow: hidden;
+	}
+	.menu_top .nav_menu li{
+		display: block;
+	}
+	.menu_top .nav_menu li a{
+		padding: 8px 15px;
+	}
 
+	.menu_bar{
+		display: block;
+	}
+	.abt-txt-img {
+		float:none;
+		width: 350px;
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+	.service_content {
+		/* text-align: center; */
+		padding-top: 35px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	.page-title p {
+		width: 100%;
+		margin: 20px auto;
+	}
+	.contact_info_adds .contact_addrs {
+		position: absolute;
+		background: #fff;
+		left: 0;
+		top: 50%;
+		width: 70%;
+		box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.2);
+		padding: 20px;
+	}
+	.contact_addrs p{
+		font-size: 12px;
+	}
+	.section-title h2 {
+		font-weight: 800;
+		font-size: 20px;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		line-height: 1.2;	
+	}
+	.contact_forms_field {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.service_content {
+		/* text-align: center; */
+		padding-top: 30px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.abt_img img {
+		max-width: 100%;
+		height: auto;
+	}
+	#portfoliolist .portfolio {
+		width:49%;
+		/*margin:1%;*/
+	}
+	.gallery_section{
+		margin-bottom: 0px !important;
+	}		
+
+	#ads {
+		display:none;
+	}
+	#filters{
+		text-align: center;
+	}
+	#filters li{
+		float: none;
+		display: inline-block;
+	}
+	#filters li span{
+		padding: 5px;
+		font-size: 10px;
+	}
+	.services_list_box{
+		position: relative;
+		padding-left: 0px;
+		background: #fff;
+		/*box-shadow: 0 5px 15px #ddd;*/
+		margin-bottom: 50px;
+		transition: all 0.3s ease;
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+	}
+	.services_img{
+		/*border-bottom: solid 5px #ddd;*/
+		/*box-shadow: 0 5px 10px #ddd;*/
+		position: static;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 240px;
+		overflow:hidden;
+	}
+	.tour-log-box{
+		display: none;
+	}
+	.customer_supot h3 {
+		font-size: 20px;
+	}
+	.form-group{
+		color: var(--txt-color-secondary);
+		line-height: 22px;
+		margin-bottom: 20px;
+		font-size: 12px;
+	}
+	#cars option{
+		font-size: 12px;
+		color: var(--txt-color-secondary);
+	   margin-top: 5px;
+	}
+	#cars{
+		padding: 10px 0px;
+		font-size: 12px;
+		color: var(--txt-color-secondary);
+		line-height: 30px;
+		border: 1px solid  var(--txt-color-secondary);
+		outline: none;
+	}
+	.check-lable{
+		padding-bottom: 15px;
+	}
+	.partner_icon img {
+		opacity: 0.40;
+		padding-bottom: 40px;
+	}
+	.card-contact{
+		margin-bottom: 15px;
+	}
+
+}
 @media(min-width:767px) and (max-width:992px){
 	.banner-img{
 		height: 400px;
@@ -69,4 +230,70 @@
 	.testimonial-slide{
 		width: 100%;
 	}
+	.abt-txt-img {
+		float: right;
+		width: 550px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+	.abt_img img {
+		max-width: 100%;
+		height: auto;
+	}
+	.service_content {
+		padding-top: 80px;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.page-title p {
+		width: 65%;
+		margin: 20px auto;
+	}
+	/* .partner_icon img {
+		opacity: 0.40;
+		padding: 40px;
+	} */
+	.contact_info_adds .contact_addrs{
+		position: absolute;
+		background: #fff;
+		left: 35px;
+		top: 50%;
+		width: 50%;
+		box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.2);
+		padding: 40px;
+		-ms-transform: translate(0, -50%);
+		-webkit-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+	}
+	#cars option{
+		font-size: 16px;
+		color: var(--txt-color-secondary);
+	   margin-top: 10px;
+	}
+	.check-lable{
+		padding-bottom: 15px;
+	}
+	.form-group{
+		color: var(--txt-color-secondary);
+		line-height: 22px;
+		margin-bottom: 20px;
+		font-size: 16px;
+	}
+	.contact_addrs p{
+		font-size: 16px;
+	}
+	.service_content {
+		/* text-align: center; */
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	#filters li span{
+		font-size: 16px;
+		padding: 5px 10px;
+	}
+	/* .tour-log-box{
+		display: none;
+	} */
 }
+

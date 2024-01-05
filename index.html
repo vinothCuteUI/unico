@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,7 +26,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<!-- Logo -->
-					<div class="col-lg-3">
+					<div class="col-md-3 col-lg-3">
 						<h1 class="logo-top">
 							<a href="index.html" class="logo">
 								<img src="assets/images/logo-unico.jpg" alt="UNICO" />
@@ -35,11 +36,11 @@
 					<!----- Logo end ---->
 
 					<!-- top social links --->
-					<div class="col-lg-9 d-none d-lg-block">
-						<div class=" d-lg-flex justify-content-end align-items-center">
+					<div class="col col-lg-9 d-none d-md-block">
+						<div class="d-none d-lg-flex justify-content-end align-items-center">
 							<div class="reachus-top">
-								<a href="#"><i class="fa fa-phone" aria-hidden="true"></i> <span> (+1)-96-716-6879</span></a>
-								<a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <span>info@gmail.com</span></a>
+								<a href="tel:+91 7550053800"><i class="fa fa-phone" aria-hidden="true"></i> <span> +91 7550053800 </span></a>
+								<a href="mailto:contact@unicoes.com"><i class="fa fa-envelope" aria-hidden="true"></i> <span>contact@unicoes.com</span></a>
 							</div>
 							<div class="top-social">
 								<a href="#" class="social-links" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -50,38 +51,61 @@
 						</div>
 						
 						<!--- Nav section --->
-			 			<nav class="navbar d-flex justify-content-end">
+			 			<nav class="navbar d-flex justify-content-end" >
 			 				<ul class="navlist">
 			 					<li class="navitem">
-			 						<a href="#" class="navlink active">Home</a>
+			 						<a href="index.html" class="navlink active">Home</a>
 			 					</li>
-			 					<li class="navitem">
-			 						<a href="#" class="navlink">About US</a>
+			 				
+								 <li class="navitem"><a href="about.html" class="navlink">About Us</a>
+									<div class="dropdown-content">
+										<a href="about.html#Our-Mission">Our Mission</a>
+										<a href="about.html#Our-Vision">Our Vision</a>
+									  </div>
+								  </li>
+								 <li class="navitem">
+									<a href="product.html" class="navlink">Products</a>
+								</li>
+			 					<li class="navitem"><a href="services.html" class="navlink">Services</a>
+									<div class="dropdown-content">
+										<a href="services.html#ser-Vision1">Plastic Waste Management and recycling</a>
+										<a href="services.html#ser-Vision2">Scrap Metal Recycling</a>
+										<a href="services.html#ser-Vision3">Paper Recycling</a>
+										<a href="services.html#ser-Vision4">Circular Economy Consultation</a>
+										<a href="services.html#ser-Vision5">Blockchain Integration Services</a>
+										<a href="services.html#ser-Vision6">EPR Compliance</a>
+										<a href="services.html#ser-Vision7">Community Engagement Programs and Branch Establishment Opportunities</a>
+									</div>
 			 					</li>
+			 					
 			 					<li class="navitem">
-			 						<a href="#" class="navlink">Products</a>
-			 					</li>
-			 					<li class="navitem">
-			 						<a href="#" class="navlink">Galary</a>
-			 					</li>
-			 					<li class="navitem">
-			 						<a href="#" class="navlink">Contacts</a>
+			 						<a href="contact.html" class="navlink">Contact Us</a>
 			 					</li>
 
 			 				</ul>
-			 				<!-- <div class="call-to-cation">
-				 				<a href="#" class="btns">Get in Touch</a>
-				 			</div> -->
 			 			</nav>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container">
-	 		
-		 	
-		</div>
+		
 	</header>
+	<!-- Mobile menu ----------------------------->
+	<div class="menu_top d-md-none" id="nav-links-sec"s>
+		<div class="menu_bar">
+			<div class="btn_1 menu_btn"></div>
+			<div class="btn_2 menu_btn"></div>
+			<div class="btn_3 menu_btn"></div>
+		</div>
+		<ul class="nav_menu pull-right" >
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="product.html">Products</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			
+		</ul>
+	</div>
 	<!------- Heade ends ------->
 
 
@@ -107,7 +131,7 @@
 					<h1>Unsegregated waste <br/>is a health hazard.</h1>
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
 					<div class="bnr-btns">
-						<a href="#" class="btns btns-primary">View Products</a>
+						<!-- <a href="#" class="btns btns-primary">View Products</a> -->
 					</div>
 				</div>
 			</div>
@@ -126,7 +150,7 @@
 						<h2>About UNICO</h2>
 						<p>Today, the waste is either being dumped or burnt causing 22 different types of diseases including COVID. Manual segregation is humanly not possible. Even if it is possible, isn’t it inhuman?</p>
 						<p>We provide complete end-to-end technology that sorts the waste and recycles it, thus providing a comprehensive solution to convert every bit of waste to value.</p>
-						<a href="#" class="btns btns-secondary">Read More</a>
+						<a href="about.html" class="btns btns-secondary">Read More</a>
 					</div>
 				</div>
 
@@ -145,57 +169,48 @@
 	<section class="page-section bg-light">
 		<div class="container">
 			<div class="section-title text-center">
-				<h2>Our Products</h2>
-				<p>We provide complete end-to-end technology that sorts the waste and recycles it, thus providing a comprehensive <br class="d-sm-none d-block" />solution to convert every bit of waste to value.</p>
+				<h2>Product</h2>
 			</div>
-			<div class="row justify-content-center">
-				<div class="col-12 col-md-4 col-lg-3">
-					<div class="card-item">
-						<a href="#"></a>
-						<div class="card-img">
-							<img src="./assets/images/products/img-1.jpg" class="img-responsive">
+			<div class="row justify-content-center product-row">
+				<div class="col-12 col-md-4 col-lg-4 pro-img-col">
+					<a href="product.html">
+						<div class="card-item">
+							<div class="card-img">
+								<img src="./assets/images/produ-img.png" class="img-responsive">
+							</div>
+							<div class="card-txt">
+								<h4>UNICO </h4>
+								<h3>Sans Bois</h3>
+							</div>
 						</div>
-						<div class="card-txt">
-							<h4>UNICO </h4>
-							<h3>Shuttering</h3>
-						</div>
-					</div>
+					</a>
+					
 				</div>
-				<div class="col-12 col-md-4 col-lg-3">
-					<div class="card-item">
-						<a href="#"></a>
-						<div class="card-img">
-							<img src="./assets/images/products/img-2.jpg" class="img-responsive">
+				<div class="col-12 col-md-4 col-lg-4 pro-img-col">
+					<a href="product.html">
+						<div class="card-item">
+							<div class="card-img">
+								<img src="./assets/images/produ-img2.png" class="img-responsive">
+							</div>
+							<div class="card-txt">
+								<h4>UNICO </h4>
+								<h3>UNICO GEO </h3>
+							</div>
 						</div>
-						<div class="card-txt">
-							<h4>UNICO </h4>
-							<h3>Porta Cabin</h3>
-						</div>
-					</div>
+					</a>
 				</div>
-				<div class="col-12 col-md-4 col-lg-3">
-					<div class="card-item">
-						<a href="#"></a>
-						<div class="card-img">
-							<img src="./assets/images/products/img-3.jpg" class="img-responsive">
+				<div class="col-12 col-md-4 col-lg-4 pro-img-col">
+					<a href="product.html">
+						<div class="card-item">
+							<div class="card-img">
+								<img src="./assets/images/produ-img3.png" class="img-responsive">
+							</div>
+							<div class="card-txt">
+								<h4>UNICO </h4>
+								<h3>EPR Compliance</h3>
+							</div>
 						</div>
-						<div class="card-txt">
-							<h4>UNICO </h4>
-							<h3>Bathroom Doors</h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-md-4 col-lg-3">
-					<div class="card-item">
-						<a href="#"></a>
-						<div class="card-img">
-							<img src="./assets/images/products/img-4.jpg" class="img-responsive">
-						</div>
-						<div class="card-txt">
-							<h4>UNICO </h4>
-							<h3>Flooring</h3>
-						</div>
-					</div>
+					</a>	
 				</div>
 			</div>
 		</div>
@@ -241,7 +256,7 @@
 
 	<!-- Destination ------------------------------------
 	---------------------------------------------------->
-	<section class="page-section pt-0">
+	<!-- <section class="page-section pt-0">
 		<div class="container">
 			<div class="section-title text-center">
 				<h2>Popular Projects</h2>
@@ -251,7 +266,7 @@
 				<div class="col-md-12 col-lg-8 row pr-xs-0 pr-md-0">
 					<div class="col-md-12 col-sm-12 pr-xs-0 pr-md-0">
 						<div class="card-item2 ">
-							<a href="#"></a>
+
 							<div class="card-img2 card-ht1" style="background-image:url('./assets/images/products/tb.jpg')"></div>
 							
 							<div class="overlap_destination">
@@ -262,7 +277,7 @@
 					</div>
 					<div class="col-md-6 col-sm-12 pr-xs-0">
 						<div class="card-item2 ">
-							<a href="#"></a>
+
 							<div class="card-img2 card-ht2" style="background-image:url('./assets/images/products/bg-5.jpg')"></div>
 							
 							<div class="overlap_destination">
@@ -273,7 +288,7 @@
 					</div>
 					<div class="col-md-6 col-sm-12 pr-xs-0 pr-md-0">
 						<div class="card-item2 ">
-							<a href="#"></a>
+
 							<div class="card-img2 card-ht2" style="background-image:url('./assets/images/products/bg-10.png')"></div>
 							<div class="overlap_destination">
 								<h4>Project 4</h4>
@@ -285,7 +300,6 @@
 
 				<div class="col-md-12 col-lg-4 col-sm-6">
 					<div class="card-item2">
-						<a href="#"></a>
 						<div class="card-img2 card-ht2" style="background-image:url('./assets/images/products/bg-9.png')"></div>
 						<div class="overlap_destination">
 							<h4>Project 2</h4>
@@ -294,7 +308,6 @@
 					</div>
 
 					<div class="card-item2">
-						<a href="#"></a>
 						<div class="card-img2 card-ht1" style="background-image:url('./assets/images/products/bg-7.png')"></div>
 						<div class="overlap_destination">
 							<h4>Project 5</h4>
@@ -305,7 +318,7 @@
 
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Destination ends -------------------------
 	----------------------------------------------->
 
@@ -314,7 +327,7 @@
 	
 	<!-- Testimonials starts -------------------------------
 	---------------------------------------------->
-	<section class="page-section testimonial">
+	<!-- <section class="page-section testimonial">
        
         <div class="container-fluid p-0 d-flex justify-content-end">
             <div class="testimonial-slide">
@@ -369,12 +382,12 @@
                 
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Testimonials end-------------------------------
 	------------------------------------------------->
 
 	<!-- Our Partners section ------------------------->
-	<section class="our_partners page-section">
+	<!-- <section class="our_partners page-section">
 		<div class="container">
 			<div class="section-title text-center">
 				<h2>Our Partners</h2>
@@ -412,14 +425,14 @@
 
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
 	<!-- Footer section -->
 	<footer id="footer-section" class="page-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-lg-4">
+				<div class="col-md-12 col-lg-6">
 					<div class="footer-list">
 						<div class="ftr-logo">
 							<a href="#"><img src="./assets/images/logo-unico.jpg" style="width:135px" alt=""></a>
@@ -433,43 +446,32 @@
 					</div>
 				</div>
 
-				<div class="col-md-6 col-lg-2">
+				<div class="col-md-4 col-lg-2">
 					<div class="footer-list">
 
 						<h3>Quick Links</h3>
 						<ul class="ftr-links">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="about_us.html">About</a></li>
-							<li><a href="#">Products</a></li>
-							<li><a href="services.html">Explore</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="contact_us.html">Contact</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="product.html">Product</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="col-md-6 col-lg-3 ">
+				<div class="col-md-6 col-lg-4">
 					<div class="footer-list ">
 						<h3>Reach Us</h3>
 						<address>
-							<p class="adrs">60 Grant Ave. Central New Road 0708, UK</p>
-							<p class="mbl-ftr"> +91 - 93818 81173</p>
-							<p class="email-ftr">info@gmail.com</p>
+							<p class="adrs">UNICO engineering solution, UNICO engineering solution, Kolapakkam chennai</p>
+							<p class="mbl-ftr"><a href="tel:+91 7550053800"><span> +91 7550053800 </span></a></p>
+							<p class="email-ftr"><a href="mailto:contact@unicoes.com"> <span>contact@unicoes.com</span></a></p>
 						</address>
 					</div>
 				</div>
 				
-				<div class="col-md-6 col-lg-3">
-					<div class="footer-list">
-						<h3>Enquiry Now</h3>
-						<p>Sign up for our mailing list to get latest updates and offers</p>
-						<div class="ftr-subscribe">
-							<input type="email" name="" placeholder="Enter your email ID">
-							<button class="btn subs-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-						</div>
-						
-					</div>
-				</div>
+				
 				
 			</div>
 			
@@ -489,5 +491,6 @@
 
 <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
